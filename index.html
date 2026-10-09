@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dum - Sistem Informasi Donor Darah</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f6fa;
+      color: #1e293b;
+    }
+    header {
+      background: #b91c1c;
+      color: white;
+      padding: 24px 18px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; }
+    main {
+      max-width: 600px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 3px 12px #0000000d;
+    }
+    .card h2 { margin-top: 0; }
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 16px 0;
+    }
+    .item span { font-size: 26px; }
+    .item p { margin: 5px 0 0; color: #64748b; }
+    button {
+      background: #b91c1c;
+      color: white;
+      border: 0;
+      border-radius: 9px;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #64748b;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🩸 DUM</h1>
+    <p>Sistem Informasi Donor Darah</p>
+    <small>UTD PMI Kabupaten Sumbawa</small>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Selamat Datang!</h2>
+      <p>Platform informasi dan pengelolaan donor darah PMI Kabupaten Sumbawa.</p>
+    </section>
+
+    <section class="card">
+      <h2>Menu Utama</h2>
+      <div class="item">
+        <span>🧑‍🤝‍🧑</span>
+        <div>
+          <strong>Data Pendonor</strong>
+          <p>Pengelolaan informasi pendonor.</p>
+        </div>
+      </div>
+      <div class="item">
+        <span>🩸</span>
+        <div>
+          <strong>Donasi Darah</strong>
+          <p>Informasi pencatatan donasi darah.</p>
+        </div>
+      </div>
+      <div class="item">
+        <span>📊</span>
+        <div>
+          <strong>Administrasi</strong>
+          <p>Menu untuk pengelolaan data PMI.</p>
+        </div>
+      </div>
+      <button onclick="alert('Selamat datang di Dum!')">
+        Mulai
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    Dum · UTD PMI Kabupaten Sumbawa
+  </footer>
+</body>
+</html>
